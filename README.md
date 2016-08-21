@@ -7,7 +7,7 @@ Tested with Xbox pads and Logitech F710 - should work with other gamepads as wel
 ## Usage
 
 * Drop the `pico8gamepad.js` file in the same directory with your game's HTML and JS. 
-* In your HTML file, add the following:
+* In your HTML file, add the following, right before the `<script ... src="yourgame.js">` tag:
 
 ```
   <script src="pico8gamepad.js"></script>
