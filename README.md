@@ -1,7 +1,5 @@
-# pico8gamepad
-
 The default HTML export the PICO-8 produces does not support gamepad controls.
-Both Chrome and Firefox now are able to handle that, so I created a small
+Both Chrome and Firefox now are able to handle them, so I created a small
 script that rectifies that.
 
 Tested with Xbox pads and Logitech F710 - should work with other gamepads as well.
