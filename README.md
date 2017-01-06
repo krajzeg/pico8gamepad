@@ -6,7 +6,7 @@ Tested with Xbox pads and Logitech F710 - should work with other gamepads as wel
 
 ## Usage
 
-* Drop the `pico8gamepad.js` file in the same directory with your game's HTML and JS. 
+* Drop [pico8gamepad.js](https://raw.githubusercontent.com/krajzeg/pico8gamepad/master/pico8gamepad.js) in the same directory with your game's HTML and JS. 
 * In your HTML file, add the following, right before the `<script ... src="yourgame.js">` tag:
 
 ```
@@ -14,6 +14,15 @@ Tested with Xbox pads and Logitech F710 - should work with other gamepads as wel
 ```
 
 And you're done! :)
+
+## Configuration
+
+If you like, you can edit the configuration at the top of `pico8gamepad.js` to suit your needs (defaults should be fine most of the time):
+
+* `supportedPlayers` - set to 1 if your game is single player to map all controllers to player #1. In general, set it to the number of
+  players supported by your game.
+* `mapXXX` - you can choose whether different types of buttons on the controller should be mapped to PICO-8's O and X
+* `stickDeadzone` - controls how far you have to push an analog stick for it to register as a PICO-8 d-pad press.
 
 ## License: zlib license
 
